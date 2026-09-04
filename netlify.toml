@@ -1,0 +1,5 @@
+# HALYCON Orbit — static site, no build step.
+# Everything (Three.js, GSAP, textures) loads from CDNs, so Netlify just
+# serves the files at the repo root.
+[build]
+  publish = "."

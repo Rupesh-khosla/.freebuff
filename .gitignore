@@ -1,0 +1,5 @@
+# Internal / local-only — never push these
+.freebuff/
+project-id
+server.cjs
+node_modules/
